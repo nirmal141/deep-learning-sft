@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model checkpoints and outputs
+checkpoint-*/
+outputs/
+runs/
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# Training artifacts
+wandb/
+tensorboard/
+logs/
+
+# Large model files
+*.h5
+*.onnx
+*.pb
+
+# Dataset files
+*.csv
+*.tsv
+*.json
+*.parquet
+!README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Misc
+*.log
+*.pdf
+
